@@ -2,10 +2,13 @@
   "name": "backgroundgenerator",
   "version": "1.0.0",
   "description": "An app with dynamic background",
-  "main": "backgrad.js",
+  "main": "script.js",
   "scripts": {
-    "test": "start test"
+    "build": "browserify script.js > bundle.js && live-server"
   },
   "author": "Simon2jerome",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
