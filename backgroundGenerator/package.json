@@ -1,0 +1,11 @@
+{
+  "name": "backgroundgenerator",
+  "version": "1.0.0",
+  "description": "An app with dynamic background",
+  "main": "backgrad.js",
+  "scripts": {
+    "test": "start test"
+  },
+  "author": "Simon2jerome",
+  "license": "ISC"
+}
